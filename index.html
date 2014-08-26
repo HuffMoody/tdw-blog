@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="row pulseTitle">
+	<div class="small-10 small-centered columns">
+		<h1>ThinkData's Pulse</h1> 
+	</div>
+</div>	
+
+<div class="row">
+	<div class="small-10 small-centered columns entries">
+
+		{% for post in site.posts offset: 0 limit: 10 %}
+		   <div class="small-11 post">
+		    <h3><a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a></h3>
+		    <h6>Shared on {{ post.date | date_to_string }} by {{ post.author }}</h6>
+		    <p>{{ post.content }}</p>
+		   </div>
+		{% endfor %}
+
+	</div>
+</div>	

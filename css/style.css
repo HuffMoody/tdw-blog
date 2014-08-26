@@ -1,0 +1,287 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+.top-bar {
+	background : #fff;
+	margin: 1em 0;
+}
+
+nav {
+	padding: 1em 0;
+}
+
+	nav ul li a {
+		border-radius: 5px;
+		font-size: 16px;
+		vertical-align: middle;
+		border: 2px solid #fff;
+	}
+	
+		nav ul li:last-child {
+			padding: 0 0.5em;
+		}
+
+		nav ul li:last-child a{
+			border-radius: 5px;
+			color: #0b3554;
+			border: 2px solid #0b3554;
+			background: #fff;
+			-webkit-transition: color 500ms, border 500ms, ease-out;
+			-moz-transition: color 500ms, border 500ms, ease-out;
+			-o-transition: color 500ms, border 500ms, ease-out;
+			transition: color 500ms, border 500ms, ease-out;
+		}
+		
+		nav ul li:last-child:hover a{
+			border-radius: 5px;
+			color: #fff;
+			border: 2px solid #a5a9af;	
+		}
+	
+.landing {
+	background: url('../img/thinkData.png')fixed center center no-repeat;
+	margin-top: 1.5em;
+	padding: 12em 0 18em 0;
+	max-width: 100%;
+}
+
+	.landing p {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+.namaraBack {
+	text-align: left;
+	padding: 3em;
+	border-radius: 5px;	
+	color: #fff;	
+	padding: 1em;
+}
+		
+	.namaraBack h1 {
+		font-weight: 600;
+		color: #fff;
+	}
+
+	.namaraBack h6 {
+		color: #fff;
+	}
+	
+		.namaraBack p {
+			padding: 1em 1em;
+			margin: 1em 0;
+		}
+	
+		.namaraBack p a{
+			border-radius: 10px;
+			background: #fff;
+			color: #0b3554;
+			font-weight: 600;
+			letter-spacing: 5px;
+			padding: 1em 3em;
+			margin: 1em 0;
+			max-width: 12em;
+			text-align: center;
+				-webkit-transition: color 500ms, background-color 500ms ease-out;
+				-moz-transition: color 500ms, background-color 500ms ease-out;
+				-o-transition: color 500ms, background-color 500ms ease-out;
+				transition: color 500ms, background-color 500ms ease-out;
+		}
+		
+		.namaraBack p a:hover {
+			background: #0b3554;
+			color: #fff;
+			font-weight: 600;
+			letter-spacing: 5px;
+			max-width: 12em;
+			text-align: center;
+			padding: 1em 3em;
+			margin: 1em 0;
+		}	
+
+.collecting {
+	background: #0b3554;
+	color: #fff; 
+	padding: 3em;
+}
+
+	.collecting h3 {
+		color: #fff;
+		font-weight: 600;
+		font-size: 2.5rem;
+		padding: 1em 0;
+	}
+	
+	.collecting p {
+		color: #fff;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+	
+		.collecting p:last-child {
+			color: #fff;
+			font-weight: 600;
+			padding: 1em 0;
+			margin: 8em auto 2em auto;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+			.collecting p a:last-child {
+				border-radius: 10px;
+				border: 2px solid #fff;
+				color: #fff;
+				padding: 1em 2em;
+					-webkit-transition: color 500ms, border 500ms ease-out;
+					-moz-transition: color 500ms, border 500ms ease-out;
+					-o-transition: color 500ms, border 500ms ease-out;
+					transition: color 500ms, border 500ms ease-out;
+			}
+			
+			.collecting p a:last-child:hover {
+				border: 2px solid #a5a9af;
+				color: #a5a9af;
+			}
+		
+.contact {
+	background: #fff;
+	color: #0b3554; 
+	padding: 3em 3em 0 3em;
+		border-top: 2px solid #0b3554;
+		border-left: 2px solid #0b3554;
+		border-right: 2px solid #0b3554;
+}
+
+	.contact h1 {
+		font-weight: 600;
+	}
+	
+	.contact p {
+		font-family: 'Open Sans', sans-serif;
+		color: #677fa3;
+		margin-bottom: 3em;
+	}
+
+	.contact2 {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-top: 2px solid #0b3554;
+		border-left: 2px solid #0b3554;
+		border-right: 2px solid #0b3554;
+		padding: 2em 0 1em 0;
+	}
+
+		.contact2 p:last-child {
+			color: #fff;
+			font-weight: 600;
+			padding: 1em 0;
+			margin-top: 2em;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;
+		}
+		
+		.contact2 p a:last-child {
+			border-radius: 10px;
+			border: 2px solid #677fa3;
+			color: #677fa3;
+			padding: 1em 2em;
+				-webkit-transition: color 500ms, border 500ms, background-color 500ms, ease-out;
+				-moz-transition: color 500ms, border 500ms, background-color 500ms ease-out;
+				-o-transition: color 500ms, border 500ms, background-color 500ms ease-out;
+				transition: color 500ms, border 500ms, background-color 500ms ease-out;
+		}
+		
+		.contact2 p a:last-child:hover {
+			border: 2px solid #0b3554;
+			color: #fff;
+			background: #0b3554;
+		}
+
+	label {
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	textarea {
+		resize: vertical;
+	}
+	
+	input#name , input#email , textarea#message {
+		font-family: 'Open Sans', sans-serif;
+		color: #919498;
+	}
+	
+.footer {
+	background: #0b3554;
+	color: #fff; 
+	padding: 3em;
+}
+
+	.footer ul {
+		list-style-type: none;
+	}
+	
+		.footer ul li {
+			display: inline-block;
+			padding: 0 1em;
+		}
+
+			.footer ul li a{
+				font-family: 'Open Sans', sans-serif;
+				color: #fff;
+				font-weight: 600;
+				font-size: 0.8125rem;
+				-webkit-transition: color 500ms ease-out;
+				-moz-transition: color 500ms ease-out;
+				-o-transition: color 500ms ease-out;
+				transition: color 500ms ease-out;
+			}
+			
+			.footer ul li a:hover{
+				color: #a5a9af;
+			}
+			
+.copy p{
+	color: #a5a9af;
+	font-weight: 400;
+	font-size: small;
+	padding-top: 1em;
+}
+
+.pulseTitle h1{
+	font-size: 6rem;
+	font-weight: 600;
+	margin: 0.4em 0 0.5em 0;
+}
+
+	.entries p {
+		color: #4e6677;
+	}
+	
+	.entries h3 a{
+		color: #0b3554;
+		font-weight: 600;
+	}
+	
+	.entries h6 {
+		font-size: 10pt;
+		color: #a5a9af;
+	}
+	
+	.post {
+		padding: 1.2em;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	
+.entry1 {
+	margin-top: 2em;
+}
+	
+	
+	
+	
+
+
+
+
